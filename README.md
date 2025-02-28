@@ -20,10 +20,11 @@ To get started with this project, follow these steps:
 1. Clone this repository:
    ```bash
    git clone https://github.com/YYYEJI/ReactCalculator.git
-   cd my-calculator-app
+   cd ReactCalculator
 
 2. Start the app:
     ```
+    npm install
     npm start
     ```
 
