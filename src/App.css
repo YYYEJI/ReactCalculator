@@ -1,38 +1,63 @@
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  height: 100vh;
+  background-color: #000; /* 배경 검정색 */
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  color: #fff; /* 제목 흰색 */
+}
+
+form {
+  background: #f0f0f0; /* 다크 그레이 */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(255, 255, 255, 0.2);
+  text-align: center;
+}
+
+p {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: black; /* 흰색 */
+}
+
+input {
+  width: 80%;
+  padding: 10px;
+  font-size: 1rem;
+  border: 2px solid #444;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  text-align: center;
+  background: #222;
+  color: #fff;
+}
+
+button {
+  width: 45%;
+  padding: 10px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* 파스텔 톤 버튼 색상 */
+button:nth-child(3) { background-color: #ffd4de; }  /* add */
+button:nth-child(4) { background-color: #ffadc0; }  /* subtrack*/
+button:nth-child(5) { background-color: #ff7092; }  /* multiply */
+button:nth-child(6) { background-color: #FF6F91; }  /* divide */
+button:nth-child(7) { background-color: #ff4a74; }  /* reset input */
+button:nth-child(8) { background-color: #ff2659; }  /* reset result */
+button:hover {
+  opacity: 0.8;
 }
