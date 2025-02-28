@@ -1,4 +1,4 @@
-# 🚀 Simple Calculator 🚀
+# 🚀 A simple project: Calulator using React 🚀
 
 This is a simple calculator built using React. It performs basic arithmetic operations such as addition, subtraction, multiplication, and division. Additionally, you can reset the input field and result with dedicated buttons.
 
