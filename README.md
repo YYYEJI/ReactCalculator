@@ -30,7 +30,7 @@ To get started with this project, follow these steps:
 
 The app will be available at http://localhost:3000 in your browser.
 
-## Usage
+## 💻 Usage 💻
 - Add: Adds the number you enter to the result.
 - Subtract: Subtracts the number you enter from the result.
 - Multiply: Multiplies the result by the number you enter.
@@ -38,12 +38,12 @@ The app will be available at http://localhost:3000 in your browser.
 - Reset Input: Resets the number in the input field to zero.
 - Reset Result: Resets the calculation result to zero.
 
-## Technologies Used
+## 🌐 Technologies Used 🌐
 - React
 - JavaScript
 - CSS
 
-## 💡 Contributing
+## 💡 Contributing 💡
 
 We welcome contributions! Feel free to submit a pull request or open an issue for feature requests or bug reports.
 
